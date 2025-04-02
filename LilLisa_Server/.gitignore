@@ -20,7 +20,8 @@ tox.ini
 speedict/*
 
 # Ignore contents of lancedb folder
-# lancedb/*
+lancedb/*
+!lancedb/.gitkeep
 
 # Ignore passwords
 passwords/
